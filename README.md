@@ -36,14 +36,13 @@ openllm serve llama3.1:8b --port 6578
 在后台运行 GraphRAG 程序：
 
 ```bash
-nohup python main.py -opt Option/Method/MedG.yaml -dataset_name CronKGQA > log.txt 2>&1 &
+python main.py -opt Option/Method/MedG.yaml -dataset_name CronKGQA
 ```
 
 ### 参数说明
 
 - `-opt Option/Method/MedG.yaml`: 指定方法配置文件
 - `-dataset_name CronKGQA`: 指定数据集名称
-- `> log.txt 2>&1 &`: 将输出重定向到日志文件并在后台运行
 
 ## File Structure
 
