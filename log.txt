@@ -1,0 +1,48 @@
+nohup: ignoring input
+####################################################################################################
+ _____ _____ _____ _____ __  __  ____  _   _ 
+|  __ \_   _/ ____|_   _|  \/  |/ __ \| \ | |
+| |  | || || |  __  | | | \  / | |  | |  \| |
+| |  | || || | |_ | | | | |\/| | |  | | . ` |
+| |__| || || |__| |_| |_| |  | | |__| | |\  |
+|_____/_____\_____|_____|_|  |_|\____/|_| \_|
+                                             
+                                             
+
+╔════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║ Welcome to DIGIMON: Deep Analysis of Graph-Based RAG Systems.                                          ║
+║                                                                                                        ║
+║ Unlock advanced insights with our comprehensive tool for evaluating and optimizing RAG models.         ║
+║                                                                                                        ║
+║ You can freely combine any graph-based RAG algorithms you desire. We hope this will be helpful to you! ║
+╚════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+####################################################################################################
+Chunk id: manual_input_0
+Chunk id: manual_input_500
+Chunk id: manual_input_1000
+Chunk id: manual_input_1500
+Chunk id: manual_input_2000
+Chunk id: manual_input_2500
+Chunk id: manual_input_3000
+Chunk id: manual_input_3286
+0
+0
+2025-09-21 15:16:28.822 | INFO     | Core.Storage.ChunkKVStorage:_persist:105 - Writing data into /home/mengke/code/GraphRAG/run/er_graph/chunk_storage_chunk_data_idx.pkl and /home/mengke/code/GraphRAG/run/er_graph/chunk_storage_chunk_data_key.pkl
+2025-09-21 15:59:29.852 | INFO     | Core.Storage.NetworkXStorage:_persist:109 - Writing graph into /home/mengke/code/GraphRAG/run/er_graph/graph_storage_nx_data.graphml
+2025-09-21 15:59:29.932 | INFO     | Core.Storage.NetworkXStorage:write_nx_graph:45 - Writing graph with 122511 nodes, 265886 edges
+Graph saved at: /home/mengke/code/GraphRAG/run/er_graph/graph_storage_nx_data.graphml
+GraphML path: /home/mengke/code/GraphRAG/run/er_graph/graph_storage_nx_data.graphml
+Node count: 122511
+Edge count: 265886
+Edges with data: ('raffaele sansone', 'bologna f c  1909', {'weight': 2.0, 'source_id': 'manual_input_2626<SEP>manual_input_3122', 'relation_name': 'member of sports team on 1931<SEP>member of sports team on 1934', 'keywords': '1931<SEP>1934', 'description': '', 'src_id': 'bologna f c  1909', 'tgt_id': 'raffaele sansone'})
+2025-09-21 16:03:53.756 | INFO     | Core.GraphRAG:_update_costs_info:205 - Build Graph from Tuples stage cost: Total prompt token: 0, Total completeion token: 0, Total cost: 0
+2025-09-21 16:03:53.758 | INFO     | Core.GraphRAG:_update_costs_info:207 - Build Graph from Tuples time(s): 4714.80
+2025-09-21 16:03:54.879 | INFO     | Core.Index.BaseIndex:build_index:13 - Starting insert elements of the given graph into vector database
+The path /home/mengke/code/GraphRAG/run/er_graph/entities_vdb does not exist.
+2025-09-21 16:03:54.920 | INFO     | Core.Index.BaseIndex:build_index:25 - Building index for input elements
+2025-09-21 16:05:19.058 | INFO     | Core.Index.VectorIndex:_update_index:68 - refresh index size is 122511
+2025-09-21 16:08:04.489 | INFO     | Core.Index.BaseIndex:build_index:28 - Index successfully built and stored.
+2025-09-21 16:08:04.490 | INFO     | Core.Index.BaseIndex:build_index:29 - ✅ Finished starting insert entities of the given graph into vector database
+2025-09-21 16:08:07.541 | INFO     | Core.Index.BaseIndex:build_index:13 - Starting insert elements of the given graph into vector database
+The path /home/mengke/code/GraphRAG/run/er_graph/relations_vdb does not exist.
+2025-09-21 16:08:07.562 | INFO     | Core.Index.BaseIndex:build_index:25 - Building index for input elements
